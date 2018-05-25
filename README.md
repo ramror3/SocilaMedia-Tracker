@@ -1,24 +1,19 @@
-# README
+Ruby 2.3.1
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 5.1.6
 
-Things you may want to cover:
+RVM 2.3.1
 
-* Ruby version
+DB mysql2
 
-* System dependencies
+gem 'devise'
+gem 'twitter-bootstrap-rails', '~> 4.0'
+gem 'devise-bootstrap-views', '~> 0.0.11'
 
-* Configuration
+rails g bootstrap:install static
+rails g bootstrap:layout application
+rails g devise:views:locale en
+rails g devise:views:bootstrap_templates
 
-* Database creation
+*= require devise_bootstrap_views
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
